@@ -68,6 +68,7 @@ module.exports = {
   output: {
     path: path.join(destPath, targetBrowser),
     filename: 'js/[name].bundle.js',
+    globalObject: 'this'
   },
 
   resolve: {
