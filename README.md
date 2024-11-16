@@ -105,6 +105,9 @@ Then run the following:
 
 - **Load extension in browser**
 
+- gmail/quickstart/index.html: 
+  - https://github.com/google/google-api-javascript-client/blob/master/docs/start.md
+  - https://www.npmjs.com/package/@types/gapi
 - Manifest V2 to V3 migration checklist
   - Firefox: https://extensionworkshop.com/documentation/develop/manifest-v3-migration-guide/
   - Chrome: https://blog.shahednasser.com/chrome-extension-tutorial-migrating-to-manifest-v3-from-v2/

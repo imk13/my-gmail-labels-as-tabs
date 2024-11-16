@@ -1,6 +1,7 @@
 import 'emoji-log';
-import {browser} from 'webextension-polyfill-ts';
+import { GmailLabel } from '../models/GmailLabel';
 
-browser.runtime.onInstalled.addListener((): void => {
-  console.emoji('🦄', 'extension installed');
-});
+
+let gmailLabels = new Array<GmailLabel>();
+
+exports.gmailLabels = gmailLabels;

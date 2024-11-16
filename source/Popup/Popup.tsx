@@ -1,6 +1,5 @@
 import * as React from 'react';
 import {browser, Tabs} from 'webextension-polyfill-ts';
-
 import './styles.scss';
 
 function openWebPage(url: string): Promise<Tabs.Tab> {
@@ -27,23 +26,21 @@ const Popup: React.FC = () => {
               type="button"
               onClick={(): Promise<Tabs.Tab> => {
                 return openWebPage(
-                  'https://github.com/abhijithvijayan/web-extension-starter'
+                  'https://github.com/imk13'
                 );
               }}
             >
-              GitHub
+              Author
             </button>
           </li>
           <li>
             <button
               type="button"
-              onClick={(): Promise<Tabs.Tab> => {
-                return openWebPage(
-                  'https://www.buymeacoffee.com/abhijithvijayan'
-                );
+              onClick={(): Promise<any> => {
+                return Promise.resolve();
               }}
             >
-              Buy Me A Coffee
+              Authorize
             </button>
           </li>
         </ul>
